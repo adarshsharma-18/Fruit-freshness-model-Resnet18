@@ -8,9 +8,6 @@ __pycache__/
 .python-venv/
 venv/
 
-# Ignore PyTorch model files
-*.pt
-*.pth
 
 # Ignore IDE specific files
 .idea/
