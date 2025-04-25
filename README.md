@@ -58,6 +58,9 @@ The project includes sample images in the `sample` directory for testing:
 ## Model Training
 The model was trained using a multi-label classification approach. The training notebook `multi-label-classification-name-freshness.ipynb` contains the complete training process.
 
+## Dataset
+The model was trained using the [Fresh and Stale Classification](https://www.kaggle.com/datasets/swoyam2609/fresh-and-stale-classification) dataset from Kaggle, which contains images of various fruits and vegetables in both fresh and spoiled conditions.
+
 ## Example Output
 ```
 Predicted Fruit: apple (95.23%)
