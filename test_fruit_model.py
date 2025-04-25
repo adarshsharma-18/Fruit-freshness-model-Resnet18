@@ -71,3 +71,4 @@ def predict_image(image_path, model_path="Fruits_edible.pt"):
     print(f"Freshness: {class_names_freshness[fresh_idx]} ({fresh_conf * 100:.2f}%)")
 
 
+predict_image("sample/badapple.png", model_path="Fruits_edible.pt")
